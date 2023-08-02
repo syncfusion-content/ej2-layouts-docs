@@ -75,7 +75,7 @@ This can be referenced in your application using the following code.
 @import '../../node_modules/@syncfusion/ej2-layouts/styles/material.css';
 ```
 
-> The [Custom Resource Generator (CRG)](https://crg.syncfusion.com) is an online web tool, which can be used to generate the custom script and styles for a set of specific controls.
+> The [Custom Resource Generator (CRG)](https://crg.syncfusion.com/) is an online web tool, which can be used to generate the custom script and styles for a set of specific controls.
 > This web tool is useful to combine the required control scripts and styles in a single file.
 
 ## Adding splitter to the project
