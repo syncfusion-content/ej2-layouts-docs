@@ -141,9 +141,9 @@ splitObject.appendTo('#splitter');
 
 ## Load content to the pane
 
-You can load the pane contents in either HTML element or string types using [content](../api/splitter/panePropertiesModel/#content) property.
+You can load the pane contents in either HTML element or string types using [content](https://ej2.syncfusion.com/documentation/api/splitter/panePropertiesModel/#content) property.
 
-For detailed information, refer to the [pane content](./pane-content/) section.
+For detailed information, refer to the [pane content](https://ej2.syncfusion.com/documentation/splitter/pane-content) section.
 
 ```ts
 
@@ -193,6 +193,6 @@ The following example illustrates the output in your browser.
 
 ## See Also
 
-* [Resizable split panes](./resizing/)
-* [Collapsible panes](./expand-and-collapse/)
-* [Construct different layouts using Splitter](./different-layouts/)
+* [Resizable split panes](https://ej2.syncfusion.com/documentation/splitter/resizing)
+* [Collapsible panes](https://ej2.syncfusion.com/documentation/splitter/expand-and-collapse)
+* [Construct different layouts using Splitter](https://ej2.syncfusion.com/documentation/splitter/different-layouts)
