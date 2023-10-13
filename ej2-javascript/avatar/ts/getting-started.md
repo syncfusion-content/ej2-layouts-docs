@@ -11,7 +11,9 @@ domainurl: ##DomainURL##
 
 # Getting started in ##Platform_Name## Avatar control
 
-The following section explains the steps required to create a simple avatar component using styles and its basic usage.
+This section explains how to create a simple MultiSelect component and configure its available functionalities in TypeScript using the Essential JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository.
+
+> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started/).
 
 ## Dependencies
 
@@ -21,28 +23,41 @@ Install the following required dependent packages to render the avatar component
 |-- @syncfusion/ej2-layouts
 ```
 
-## Set up your development environment
+## Set up development environment
 
-To get started with the `Avatar` component, you can clone the [`Essential JS 2 quickstart`](https://github.com/syncfusion/ej2-quickstart) project, and install the packages by using the following commands.
-
-  ```
-   git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
-   cd quickstart
-   npm install
-  ```
-
-> By default, the project is configured with all the Essential JS 2 dependencies. As avatar is a pure CSS component, do not configure the `src/system.config.js` file. You can remove the file.
-
-## Include avatar theme file
-
-The avatar CSS files are available in the `ej2-layouts` package folder. This can be referenced in your application using the following code.
-
-`[src/styles/styles.css]`
+Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
 ```
-@import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
-@import '../../node_modules/@syncfusion/ej2-layouts/styles/material.css';
+    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
 ```
+
+After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+
+```
+    cd ej2-quickstart
+```
+
+## Add Syncfusion JavaScript packages
+
+Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion JavaScript (Essential JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+
+The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+
+```
+    npm install
+```
+
+## Import the Syncfusion CSS styles
+
+Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusion.com/documentation/appearance/theme/), which are available in the installed packages. It's easy to adapt the Syncfusion JavaScript controls to match the style of your application by referring to one of the built-in themes.
+
+The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
+
+```
+  @import "../../node_modules/@syncfusion/ej2/material.css";
+```
+
+> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
 ## Add avatar into the application
 
