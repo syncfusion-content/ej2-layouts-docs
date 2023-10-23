@@ -28,15 +28,23 @@ The following list of dependencies is required to use the DashboardLayout compon
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-```
-    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-```
-    cd ej2-quickstart
-```
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+cd ej2-quickstart
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion JavaScript packages
 
@@ -44,9 +52,13 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-```
-    npm install
-```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import the Syncfusion CSS styles
 
@@ -54,9 +66,13 @@ Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusio
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
-```
-  @import "../../node_modules/@syncfusion/ej2/material.css";
-```
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import "../../node_modules/@syncfusion/ej2/material.css";
+
+{% endhighlight %}
+{% endtabs %}
 
 > You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
@@ -75,7 +91,9 @@ The following sample demonstrates defining of `panels` by adding child elements 
 
 `[src/index.html]`
 
-```html
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -129,13 +147,16 @@ The following sample demonstrates defining of `panels` by adding child elements 
 </body>
 
 </html>
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 Now, import the DashboardLayout component into your `app.ts` and append it to `#dashboard_inline`.
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { DashboardLayout } from '@syncfusion/ej2-layouts';
 
@@ -146,15 +167,20 @@ let dashboard: DashboardLayout  = new DashboardLayout ({
 // render initialized dashboardlayout
 dashboard.appendTo('#dashboard_inline');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 ## Run the application
 
 Now, use the `npm run start` command to run the application in the browser.
 
-  ```
-    npm run start
-  ```
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm run start
+
+{% endhighlight %}
+{% endtabs %}
 
 The below output can be achieved by following the steps mentioned above.
 
@@ -174,7 +200,8 @@ The following sample demonstrates defining panels property through script sectio
 
 `[src/app/app.ts]`
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
 
 import { DashboardLayout } from '@syncfusion/ej2-layouts';
 
@@ -194,7 +221,8 @@ let dashboard: DashboardLayout  = new DashboardLayout ({
 // render initialized dashboardlayout
 dashboard.appendTo('#dashboard_default');
 
-```
+{% endhighlight %}
+{% endtabs %}
 
 The following example shows a basic DashboardLayout by defining the `panels` property through script.
 
