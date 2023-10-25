@@ -84,9 +84,9 @@ The quickstart application is preconfigured to use the `Material` theme in the `
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
 
-    <div class = "e-card">
-        Sample Card
-    </div>
+<div class = "e-card">
+    Sample Card
+</div>
 
 {% endhighlight %}
 {% endtabs %}
@@ -97,30 +97,30 @@ You can create Card with a header in a specific structure. For adding header you
 
 * You can include heading inside the Card header by adding a `div` element with `e-card-header-caption` class, and also content will be added by adding element with `e-card-content`. For detailed information, refer to the [Header and Content](./header-content/).
 
-    {% tabs %}
-    {% highlight html tabtitle="index.html" %}
+{% tabs %}
+{% highlight html tabtitle="index.html" %}
 
-      <div class = "e-card">                    --> Root Element
-         <div class="e-card-header">           --> Root Header Element
-             <div class="e-card-header-caption">    --> Root Heading Element
-                <div class="e-card-header-title"></div>   --> Heading Title Element
-             </div>
-             <div class="e-card-content"></div>         --> Card content Element
-          </div>
-       </div>
+<div class = "e-card">                    --> Root Element
+    <div class="e-card-header">           --> Root Header Element
+        <div class="e-card-header-caption">    --> Root Heading Element
+            <div class="e-card-header-title"></div>   --> Heading Title Element
+        </div>
+        <div class="e-card-content"></div>         --> Card content Element
+    </div>
+</div>
 
-    {% endhighlight %}
-    {% endtabs %}
+{% endhighlight %}
+{% endtabs %}
 
 * Now, run the application in the browser using the following command.
 
-    {% tabs %}
-    {% highlight bash tabtitle="NPM" %}
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
 
-    npm start
+npm start
 
-    {% endhighlight %}
-    {% endtabs %}
+{% endhighlight %}
+{% endtabs %}
 
 Output will be as follows:
 
