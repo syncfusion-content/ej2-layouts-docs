@@ -74,7 +74,6 @@ The Splitter CSS files are available in the `ej2-layouts` package folder. This c
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 > The [Custom Resource Generator (CRG)](https://crg.syncfusion.com/) is an online web tool, which can be used to generate the custom script and styles for a set of specific controls.
 > This web tool is useful to combine the required control scripts and styles in a single file.
 

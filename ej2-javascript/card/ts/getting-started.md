@@ -72,8 +72,6 @@ The Card CSS files are available in the `ej2-layouts` package folder. This can b
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Adding a simple Card
 
 * Add the HTML `div` element with `e-card` class into your `index.html`.

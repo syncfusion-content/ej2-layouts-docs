@@ -72,8 +72,6 @@ The Avatar CSS files are available in the `ej2-layouts` package folder. This can
 {% endhighlight %}
 {% endtabs %}
 
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Add avatar into the application
 
 Add an HTML span element with `e-avatar` class into your `index.html`.
