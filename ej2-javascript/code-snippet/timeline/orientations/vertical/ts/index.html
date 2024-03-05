@@ -19,8 +19,18 @@
 </head>
 <body>
     <div id='loader'>LOADING....</div>
-    <div id='container' style="height: 350px;">
+    <div id='container'>
         <div id="timeline"></div>
     </div>
+    <style>
+        #container {
+            width: 60%;
+            margin: 30px auto;
+            padding: 30px;
+        }
+        #container:has(.e-vertical) {
+            height: 350px;
+        }
+    </style>
 </body>
 </html>

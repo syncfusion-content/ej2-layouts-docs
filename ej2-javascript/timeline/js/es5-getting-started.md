@@ -120,20 +120,3 @@ The below located script and style file contains all Syncfusion JavaScript (ES5)
 {% previewsample "page.domainurl/code-snippet/timeline/es5-getting-started-cs1" %}
 
 **Step 4:** Now, run the `index.html` in the web browser, it will render the `Essential JS 2 Timeline` control.
-
-## Configure icon and label
-
-You can define the icon and content for timeline items by setting the `dotCss` and `content` properties.
-
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/timeline/es5-iconWithContent/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/timeline/es5-iconWithContent/styles.css %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/timeline/es5-iconWithContent" %}
-
-> Need to refer dependency control styles and scripts as like above example. We can also use [CRG](https://crg.syncfusion.com/) to generate combined control styles.

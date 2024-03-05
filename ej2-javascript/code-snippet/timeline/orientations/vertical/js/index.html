@@ -18,11 +18,21 @@
 
 <body>
 
-    <div id="container" style="height: 350px;">
+    <div id="container">
         <!--Element to render the Timeline control-->
         <div id="timeline"></div>
     </div>
 
+    <style>
+        #container {
+            width: 60%;
+            margin: 30px auto;
+            padding: 30px;
+        }
+        #container:has(.e-vertical) {
+            height: 350px;
+        }
+    </style>
     <script>
         var ele = document.getElementById('container');
         if (ele) {

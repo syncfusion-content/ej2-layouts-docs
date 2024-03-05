@@ -148,21 +148,3 @@ The following example demonstrates the usage of a basic Timeline control.
 {% endtabs %}
           
 {% previewsample "page.domainurl/code-snippet/timeline/getting-started" %}
-
-## Configure icon and content
-
-You can define the icon and content for timeline items by setting the `dotCss` and `content` properties.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/timeline/iconWithContent/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/timeline/iconWithContent/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/timeline/iconWithContent/styles.css %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "page.domainurl/code-snippet/timeline/iconWithContent" %}

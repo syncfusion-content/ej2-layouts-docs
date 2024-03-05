@@ -1,15 +1,15 @@
 import { Timeline, TimelineItemModel } from '@syncfusion/ej2-layouts';
 
-const orderStatus: TimelineItemModel[] = [
-  { content: 'Ordered' },
-  { content: 'Shipped' },
-  { content: 'Out for delivery' },
-  { content: 'Delivered' },
+const frameworks: TimelineItemModel[] = [
+  { content: 'ReactJs', oppositeContent: 'Owned by Facebook' },
+  { content: 'Angular', oppositeContent: 'Owned by Google' },
+  { content: 'VueJs', oppositeContent: 'Owned by Evan you' },
+  { content: 'Svelte', oppositeContent: 'Owned by Rich Harris' }
 ];
 
 // Initializes the Timeline control
 let timeline: Timeline = new Timeline({
-  items: orderStatus,
+  items: frameworks,
   align: 'Alternatereverse'
 });
 

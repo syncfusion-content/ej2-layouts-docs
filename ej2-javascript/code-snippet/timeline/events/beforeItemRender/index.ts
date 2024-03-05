@@ -1,16 +1,16 @@
-import { Timeline, TimelineItemModel } from '@syncfusion/ej2-layouts';
+import { Timeline, TimelineItemModel, TimelineRenderingEventArgs } from '@syncfusion/ej2-layouts';
 
-const orderStatus: TimelineItemModel[] = [
-  { content: 'Ordered' },
-  { content: 'Shipped' },
-  { content: 'Out for delivery' },
-  { content: 'Delivered' },
+const productLifecycle: TimelineItemModel[] = [
+  { content: 'Planning'},
+  { content: 'Developing'},
+  { content: 'Testing' },
+  { content: 'Launch' },
 ];
 
 // Initializes the Timeline control
 let timeline: Timeline = new Timeline({
-  items: orderStatus,
-  beforeItemRender: () => {
+  items: productLifecycle,
+  beforeItemRender: (args: TimelineRenderingEventArgs) => {
     //your required action here 
   }
 });
