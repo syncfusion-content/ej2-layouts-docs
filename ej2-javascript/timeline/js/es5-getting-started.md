@@ -113,10 +113,10 @@ The below located script and style file contains all Syncfusion JavaScript (ES5)
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/timeline/es5-getting-started-cs1/index.html %}
+{% include code-snippet/timeline/es5-getting-started/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/timeline/es5-getting-started-cs1" %}
+{% previewsample "page.domainurl/code-snippet/timeline/es5-getting-started" %}
 
 **Step 4:** Now, run the `index.html` in the web browser, it will render the `Essential JS 2 Timeline` control.
