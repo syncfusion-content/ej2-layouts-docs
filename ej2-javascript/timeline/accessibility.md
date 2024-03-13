@@ -19,7 +19,6 @@ The accessibility compliance for the Timeline control is outlined below.
 | -- | -- |
 | [WCAG 2.2](https://www.w3.org/TR/WCAG22/) Support | <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" alt="Yes"> |
 | [Section 508](https://www.section508.gov/) Support | <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" alt="Yes"> |
-| Screen Reader Support | <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" alt="Yes"> |
 | Right-To-Left Support | <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" alt="Yes"> |
 | Color Contrast | <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" alt="Yes"> |
 | Mobile Device Support | <img src="https://cdn.syncfusion.com/content/images/landing-page/yes.png" alt="Yes"> |
@@ -44,7 +43,7 @@ The following ARIA attributes are used in the Timeline control:
 
 | Attributes | Purpose |
 | --- | --- |
-| `role` | Specifies the semantic role of an element, indicating its function to assistive technologies like screen readers. |
+| `role=navigation` | The navigation role in a timeline component signifies its purpose as a navigational element. |
 | `aria-label` | Provides an accessibile name for an element when a visible label is not present |
 
 ## Ensuring accessibility
