@@ -11,9 +11,7 @@ domainurl: ##DomainURL##
 
 # Reverse in ##Platform_Name## Timeline control
 
-This section explains how to display Timeline items in reverse order, starting with the most recent events. This is achieved using the [reverse](../api/timeline#reverse) property of the Timeline component.
-
-By default, Timeline items are often ordered with the oldest events at the top (or left in horizontal orientation). Reversing the timeline allows users to view the most recent activity without needing to scroll through long lists.
+You can display the Timeline items in reverse order, for different alignments by using the [reverse](../api/timeline#reverse) property which provides adaptability and improves user interaction.
 
 {% if page.publishingplatform == "typescript" %}
 

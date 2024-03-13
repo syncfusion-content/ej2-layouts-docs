@@ -26,16 +26,23 @@
         .e-timeline-item.dot-filled .e-dot::before { content: 'A'; color: #fff;}
         .e-timeline-item.dot-flat .e-dot::before { content: 'B'; color: #fff;}
         .e-timeline-item.dot-outlined .e-dot::before { content: 'C';}
+        
         .e-timeline-item.dot-filled .e-dot {
             background: #33cc33;
+            --dot-outer-space: 3px;
+            outline-color: #81ff05;
+            border-color: #33cc33;
+            --dot-size: 25px;
         }
         .e-timeline-item.dot-flat .e-dot {
             background: #33cc33;
-            outline-color: #33cc33;
-            border-color: #33cc33;
+            --dot-size: 25px;
         }
         .e-timeline-item.dot-outlined .e-dot {
             outline-color: #33cc33;
+            --dot-outer-space: 3px;
+            background-color: unset;
+            --dot-size: 25px;
         }
     </style>
 </body>

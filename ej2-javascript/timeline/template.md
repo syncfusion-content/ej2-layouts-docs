@@ -11,14 +11,14 @@ domainurl: ##DomainURL##
 
 # Template in ##Platform_Name## Timeline control
 
-The Timeline control allows you to customize the look and information displayed for each item, providing a unique experience for users. This customization is achieved using the [template](../api/timeline#template) property, where you can define the content you want to show within each timeline item.
+The Timeline control allows you to customize the appearance for each item by using the [template](../api/timeline#template) to modify the dot items, templated contents, progress bar styling and more.
 
-The template receives two pieces of information within its context:
+The `template` context receives the following information:
 
 | Type | Purpose |
 | --- | --- |
-| `item` | Represents the data specific to the particular timeline item. |
-| `currentItem` | Indicates the current index of the timeline item. |
+| `item` | Indicates the current data of the Timeline item. |
+| `currentItem` | Indicates the current index of the Timeline item. |
 
 {% if page.publishingplatform == "typescript" %}
 

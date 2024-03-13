@@ -11,13 +11,13 @@ domainurl: ##DomainURL##
 
 # Customization in ##Platform_Name## Timeline control
 
-The Timeline control empowers you to personalize its appearance beyond the basic structure. This section explains various ways you can customize the Timeline items.
+You can customize the Timeline items dot size, connectors, dot borders, dot outer space and more to personalize its appearance. This section explains the different ways for styling the items.
 
-## Connector Styling
+## Connector styling
 
-### Common Styling
+### Common styling
 
-Define styles applicable to all connectors throughout the timeline.
+You can define the styles applicable to the all the Timeline item connectors.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -52,9 +52,9 @@ Define styles applicable to all connectors throughout the timeline.
 {% previewsample "page.domainurl/code-snippet/timeline/customization/connector-common" %}
 {% endif %}
 
-### Individual Styling
+### Individual styling
 
-You can also apply unique styles to individual connectors, enabling you to visually differentiate specific items within the timeline.
+You can also apply unique styles to individual connectors, to differentiate specific items within the timeline.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -90,11 +90,11 @@ You can also apply unique styles to individual connectors, enabling you to visua
 {% endif %}
 
 
-## Dot Styling
+## Dot styling
 
-### Dot Color
+### Dot color
 
-Modify the color of the dots to enhance visual clarity and potentially highlight specific items or categories of events.
+You can modify the color of the dots to highlight the specific Timeline items.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -130,9 +130,9 @@ Modify the color of the dots to enhance visual clarity and potentially highlight
 {% endif %}
 
 
-### Dot Size
+### Dot size
 
-Adjust the size of the dot to make it larger or smaller as desired.
+You can adjust the size of the dot to make it larger or smaller by using the `--dot-size` variable.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -167,9 +167,9 @@ Adjust the size of the dot to make it larger or smaller as desired.
 {% previewsample "page.domainurl/code-snippet/timeline/customization/dot-size" %}
 {% endif %}
 
-### Dot Shadow
+### Dot shadow
 
-Add a subtle shadow effect to the dots, providing depth and dimension to the timeline, making it feel more visually engaging.
+You can add shadow effects to the Timeline dots to make it feel visually engaging by using the `--dot-outer-space` variable.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -204,9 +204,9 @@ Add a subtle shadow effect to the dots, providing depth and dimension to the tim
 {% previewsample "page.domainurl/code-snippet/timeline/customization/dot-shadow" %}
 {% endif %}
 
-### Dot Variant
+### Dot variant
 
-You can achieve the desired dot variant by customizing the border, outline colors of the timeline dots.
+You can achieve the desired dot variant by customizing the border, outline and background colors of the Timeline dots.
 
 {% if page.publishingplatform == "typescript" %}
 

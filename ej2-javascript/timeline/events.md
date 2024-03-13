@@ -11,11 +11,11 @@ domainurl: ##DomainURL##
 
 # Events in ##Platform_Name## Timeline control
 
-This section describes the TImeline events that will be triggered when an appropriate actions are performed. The following events are available in the TImeline control.
+This section describes the Timeline events that will be triggered when an appropriate actions are performed. The following events are available in the TImeline control.
 
 ## created
 
-The [created](../api/timeline#created) event is triggered when the Timeline control is created and fully initialized.
+The Timeline control triggers the [created](../api/timeline#created) event when the control rendering is completed.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -46,7 +46,7 @@ The [created](../api/timeline#created) event is triggered when the Timeline cont
 
 ## beforeItemRender
 
-The [beforeItemRender](../api/timeline#beforeItemRender) event is fired before each item is rendered in Timeline control. By utilizing this, you can modify the appearance or content of the items based on specific conditions.
+The Timeline control triggers the [beforeItemRender](../api/timeline#beforeItemRender) event before rendering each item.
 
 {% if page.publishingplatform == "typescript" %}
 

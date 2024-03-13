@@ -11,48 +11,11 @@ domainurl: ##DomainURL##
 
 # Orientations in ##Platform_Name## Timeline control
 
-The [orientation](../api/timeline#orientation) property in the Timeline control allows you to specify the layout direction of the Timeline.
-
-## Horizontal
-
-The Timeline items can be arranged along a horizontal axis, with each item positioned sequentially from left to right by setting the [orientation](../api/timeline#orientation) property to `Horizontal`.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/timeline/orientations/horizontal/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/timeline/orientations/horizontal/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/timeline/orientations/horizontal/styles.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/timeline/orientations/horizontal" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/timeline/orientations/horizontal/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/timeline/orientations/horizontal/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/timeline/orientations/horizontal/styles.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/timeline/orientations/horizontal" %}
-{% endif %}
+The Timeline control supports the display of items in both horizontal and vertical direction by using the [orientation](../api/timeline#orientation).
 
 ## Vertical
 
-By setting the [orientation](../api/timeline#orientation) property to `Vertical`, the timeline items can be arranged from top to bottom manner. By default, the Timeline items are displayed in `vertical` orientation.
+You can display the items one below the other vertically by setting the [orientation](../api/timeline#orientation) property to `Vertical`. By default, the items are displayed in vertical orientation.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -85,4 +48,41 @@ By setting the [orientation](../api/timeline#orientation) property to `Vertical`
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/timeline/orientations/vertical" %}
+{% endif %}
+
+## Horizontal
+
+In horizontal orientation, the items are displayed in a side-by-side manner by setting the [orientation](../api/timeline#orientation) property to `Horizontal`.
+
+{% if page.publishingplatform == "typescript" %}
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/timeline/orientations/horizontal/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/timeline/orientations/horizontal/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/timeline/orientations/horizontal/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/timeline/orientations/horizontal" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/timeline/orientations/horizontal/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/timeline/orientations/horizontal/index.html %}
+{% endhighlight %}
+{% highlight html tabtitle="styles.css" %}
+{% include code-snippet/timeline/orientations/horizontal/styles.css %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/timeline/orientations/horizontal" %}
 {% endif %}
