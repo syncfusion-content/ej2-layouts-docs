@@ -1,7 +1,7 @@
 
 var orderStatus = [
-  { content: 'Ordered', cssClass: 'state-completed' },
-  { content: 'Shipped', cssClass: 'state-progress' },
+  { content: 'Ordered' },
+  { content: 'Shipped' },
   { content: 'Delivered' }
 ];
 

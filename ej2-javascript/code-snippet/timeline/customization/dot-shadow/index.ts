@@ -1,8 +1,8 @@
 import { Timeline, TimelineItemModel } from '@syncfusion/ej2-layouts';
 
 const orderStatus: TimelineItemModel[] = [
-  { content: 'Ordered', cssClass: 'state-completed' },
-  { content: 'Shipped', cssClass: 'state-progress' },
+  { content: 'Ordered' },
+  { content: 'Shipped' },
   { content: 'Delivered' }
 ];
 

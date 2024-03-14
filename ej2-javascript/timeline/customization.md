@@ -169,7 +169,7 @@ You can adjust the size of the dot to make it larger or smaller by using the `--
 
 ### Dot shadow
 
-You can add shadow effects to the Timeline dots to make it feel visually engaging by using the `--dot-outer-space` variable.
+You can add shadow effects to the Timeline dots to make it feel visually engaging by using the `--dot-outer-space` & `--dot-border` variables.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -243,7 +243,7 @@ You can achieve the desired dot variant by customizing the border, outline and b
 
 ### Dot outline
 
-By adding the `e-outline` class to the timeline cssClass property it enables the dots to have a outline state.
+By adding the `e-outline` class to the timeline cssClass property it enables the dots to have an outline state.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -276,41 +276,4 @@ By adding the `e-outline` class to the timeline cssClass property it enables the
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/timeline/customization/dot-outline" %}
-{% endif %}
-
-### Dot filled
-
-By adding the `e-fill` class to the timeline cssClass property it enables the dots to have a filled state.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/timeline/customization/dot-fill/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/timeline/customization/dot-fill/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/timeline/customization/dot-fill/styles.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/timeline/customization/dot-fill" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/timeline/customization/dot-fill/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/timeline/customization/dot-fill/index.html %}
-{% endhighlight %}
-{% highlight html tabtitle="styles.css" %}
-{% include code-snippet/timeline/customization/dot-fill/styles.css %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "page.domainurl/code-snippet/timeline/customization/dot-fill" %}
 {% endif %}
