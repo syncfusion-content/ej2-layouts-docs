@@ -18,7 +18,7 @@ The `template` context receives the following information:
 | Type | Purpose |
 | --- | --- |
 | `item` | Indicates the current data of the Timeline item. |
-| `currentItem` | Indicates the current index of the Timeline item. |
+| `itemIndex` | Indicates the current index of the Timeline item. |
 
 {% if page.publishingplatform == "typescript" %}
 
