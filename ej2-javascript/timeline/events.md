@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Events in ##Platform_Name## Timeline control
 
-This section describes the Timeline events that will be triggered when an appropriate actions are performed. The following events are available in the TImeline control.
+This section describes the Timeline events that will be triggered when an appropriate actions are performed. The following events are available in the Timeline control.
 
 ## created
 

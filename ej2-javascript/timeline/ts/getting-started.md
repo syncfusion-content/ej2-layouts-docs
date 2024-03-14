@@ -107,7 +107,7 @@ Add the HTML div tag with the `id` attribute as `timeline` to your `index.html` 
 {% endhighlight %}
 {% endtabs %}
 
-Import the Timeline control in your `app.ts` file, define the items using [items](https://ej2.syncfusion.com/documentation/api/stepper#steps) property, and initialize it with `#timeline`.
+Import the Timeline control in your `app.ts` file, define the items using [items](../api/timeline#items) property, and initialize it with `#timeline`.
 
 `[src/app/app.ts]`
 
