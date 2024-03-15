@@ -13,7 +13,7 @@ domainurl: ##DomainURL##
 
 The Timeline control allows you to customize the appearance for each item by using the [template](../api/timeline#template) to modify the dot items, templated contents, progress bar styling and more.
 
-The `template` context receives the following information:
+The `Template` context receives the following information:
 
 | Type | Purpose |
 | --- | --- |
