@@ -15,7 +15,7 @@ You can display the Timeline content `Before`, `After`, `Alternate` and `Alterna
 
 ## Before
 
-In [Before]((../api/timeline/timelineAlign)) alignment, for `horizontal` orientation the item content is placed at the top and oppositeContent at the bottom whereas in `vertical`, the content to the left and oppositeContent to the right.
+In [Before](../api/timeline/timelineAlign) alignment, for `horizontal` orientation the item content is placed at the top and oppositeContent at the bottom whereas in `vertical`, the content to the left and oppositeContent to the right.
 
 {% if page.publishingplatform == "typescript" %}
 
